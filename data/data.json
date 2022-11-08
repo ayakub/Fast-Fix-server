@@ -1,0 +1,38 @@
+[
+    {
+        "img": "https://media.istockphoto.com/id/1125323600/photo/technician-repairing-broken-smartphone-on-desk.jpg?s=612x612&w=0&k=20&c=ErVcy8OkhZolIVWVWUf3tXrSdzjCiHjSq5g1_Fknh4k=",
+        "name": "Display repair",
+        "description": "As mobile phone displays are much tougher than they used to be, it seems like theyre indestructible. Sadly theyre not. Dropping your phone can often break the display. Your phone can no longer be considered useful.Want to replace a damaged smartphone display? It's a relatively cheap and straightforward process. Here's how to do it.",
+        "rating": "4.9"
+    },
+    {
+        "img": "https://png.pngtree.com/png-clipart/20210911/ourmid/pngtree-phone-fingerprint-unlock-png-image_3902885.jpg",
+        "name": "Password Unlock",
+        "description": "Setting a password, PIN, fingerprint lock or FRP lock on an Android phone is a common way to prevent our important data or private info from being prying eyes. However, if you forgot your password, pin code, or pattern lock, get your Android phone broken with a screen cracked, and enter the wrong password several times, you won’t be able to access your phone and the files on the device.Lots of Android users are stuck on this problem and wondering how to unlock an Android without a password or unlock a locked Android phone without losing data. If you’re searching for a way or unlocking tool to get into a locked Android, you can find the best solution in this guide. The following 4 simple methods will be demonstrated to unlock an Android phone without a password.",
+        "rating": "5.0"
+    },
+    {
+        "img": "https://thumbs.dreamstime.com/b/close-up-installation-video-camera-smartphone-phone-repair-236995616.jpg",
+        "name": "Camera Repair",
+        "description": "Is your phone's camera not working properly? Blurry all the time? Not auto adjusting? Or not working at all? That's alright, our technicians here at Mobile Experts can fix it up in no time.We provide free quotes for mobile repair services on the top brands Apple iPhone, Samsung, Huawei, OPPO, Sony, Google, LG and Xiaomi.",
+        "rating": "5.0"
+    },
+    {
+        "img": "https://guide-images.cdn.ifixit.com/igi/YXOHDrKW4IUoZcGh.medium",
+        "name": "Battery Repair",
+        "description": "Today, here, we are going to talk about some important tips for mobile phone batteries. In some cases, the mobile phone battery just requires a DIY repair or needs replacement. This is your one-stop article where you will find some tips when your mobile phone battery repair is required. Moreover, you will find some tips for mobile phone battery replacements. Talking about some DIY mobile phone battery repair, there are top 4 ways to repair your battery if it is giving you some grief. ",
+        "rating": "5.0"
+    },
+    {
+        "img": "https://i.ytimg.com/vi/UW5T-m5__Kc/hqdefault.jpg",
+        "name": "Software problem repairing",
+        "description": "Driver updates can fix potential cybersecurity weaknesses that could be hiding from you inside your computer.Driver updates can reduce drops and errors with your Wi-Fi connection, plus give you sharper audio clarity and surround sound.Driver updates can boost gameplay and multimedia performance by up to 30%, helping you to enjoy every moment!",
+        "rating": "5.0"
+    },
+    {
+        "img": "https://wefixservice.co.in/images/mobile/honor-ear-speakar-replacement.png",
+        "name": "Spekar Repair",
+        "description": "Having a damaged speaker can be troubling, especially since you can't answer calls nor listen to music or watch videos on your phone. Thankfully, our team at Mobile Experts can get that fixed for you in no time. Turnaround time can depend on the model in question, but for the vast majority repair services are completed within 30 minutes.",
+        "rating": "5.0"
+    }
+]
