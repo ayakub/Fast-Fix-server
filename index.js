@@ -36,6 +36,15 @@ async function run() {
             const result = await cursor.toArray();
             res.send(result)
         })
+
+        app.post('/services/all', async (req, res) => {
+            const review = req.body;
+            const result = await serviceCollection.insertOne(review);
+            console.log(result);
+            review._id = result.insertedId;
+            res.send(review);
+        })
+
         app.get('/services/all/:id', async (req, res) => {
             const id = req.params.id;
             const query = { _id: ObjectID(id) };
@@ -52,12 +61,7 @@ async function run() {
             res.send(result)
         })
 
-        app.get('/services/all', async (req, res) => {
-            const query = {};
-            const cursor = serviceCollection.find(query);
-            const result = await cursor.toArray();
-            res.send(result)
-        })
+
 
         app.get('/reviews', async (req, res) => {
             let query = {};
@@ -67,7 +71,7 @@ async function run() {
                 }
             }
             const cursor = reviewCollection.find(query);
-            const result = await cursor.toArray();
+            const result = await (await cursor.toArray()).reverse();
             res.send(result);
         })
         app.get('/myreviews', async (req, res) => {
@@ -79,7 +83,8 @@ async function run() {
             }
             const cursor = reviewCollection.find(query);
             const result = await cursor.toArray();
-            res.send(result);
+            const reverse = result.reverse();
+            res.send(reverse);
         })
         app.post('/reviews', async (req, res) => {
             const review = req.body;
